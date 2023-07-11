@@ -1,0 +1,14 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "description": "TS로 블록체인 만들기 (w.노마드코더)",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
