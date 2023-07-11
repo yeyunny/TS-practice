@@ -3,7 +3,7 @@
 abstract class User {
   constructor(
     protected firstName: string,
-    protected lastName: string,
+    protected lastname: string,
     protected nickname: string
   ) {}
 
@@ -11,7 +11,7 @@ abstract class User {
   abstract getNickName(): void;
 
   getFullName() {
-    return `${this.firstName} ${this.lastName}`;
+    return `${this.firstName} ${this.lastname}`;
   }
 }
 
