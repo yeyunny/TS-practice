@@ -3,6 +3,10 @@
   "compilerOptions": {
     "outDir": "build",
     "target": "ES6",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    //TS에게 어떤 API, 어떤 실행환경 설명(런타임환경)
+    "lib": ["ES6", "DOM"],
+    "strict": true,
+    "allowJs": true
   }
 }
